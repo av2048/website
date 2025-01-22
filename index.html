@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarathi's Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #ecf0f1;
+            --accent-color: #3498db;
+            --font-family: 'Arial', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family);
+            line-height: 1.6;
+            color: var(--primary-color);
+            background-color: var(--secondary-color);
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--accent-color);
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1rem;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            text-align: center;
+            padding: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aarathi Ajayakumar</h1>
+        <p>Integrated MCA Student | Coding Enthusiast | Builder of Products</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Aarathi, an Integrated MCA student with a passion for coding, teaching, and building impactful products. I love learning new things every day and connecting with people. Currently, I'm diving into web development and attending the Tinker Her Hack hackathon organized by TinkerHub.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">
+                <h3>Leadership</h3>
+                <p>Experienced in leading teams and projects effectively.</p>
+            </div>
+            <div class="card">
+                <h3>Communication</h3>
+                <p>Strong verbal and written communication skills.</p>
+            </div>
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Proficient in HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>DevB.io</h3>
+                <p>A platform for creating developer portfolios effortlessly and effectively.</p>
+            </div>
+            <div class="card">
+                <h3>Hackathon Participant</h3>
+                <p>Currently attending "Tinker Her Hack" to build impactful solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to email me at:</p>
+        <p><a href="mailto:aarathiajayakumar2002@gmail.com">aarathiajayakumar2002@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aarathi Ajayakumar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
